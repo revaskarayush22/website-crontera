@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crontera: AI solutions — AI Automation, Websites &amp; AI Agents for Growing Companies</title>
+  <meta name="description" content="We help companies automate operations, build websites and apps, rebuild outdated sites, and deploy custom AI agents that save time and win more customers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo"><span class="logo-mark">C</span><span class="logo-text">Crontera<small class="logo-tag">AI solutions</small></span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#work">Case Study</a>
+        <a href="#pricing">Packages</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-sm btn-primary">Book a Free Call</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <span class="pill"><span class="pulse"></span> Now booking new projects</span>
+        <h1>We turn your busy work into <span class="grad">automated growth.</span></h1>
+        <p class="lead">An AI agency that automates your operations, builds high-converting websites &amp; apps, rebuilds outdated sites, and deploys custom AI agents that work 24/7 for your business.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary btn-lg">Get a Free Automation Audit →</a>
+          <a href="#work" class="btn btn-ghost btn-lg">See How It Works</a>
+        </div>
+        <div class="trust">
+          <div><strong data-count="40" data-suffix="+">0</strong><span>Workflows automated</span></div>
+          <div><strong data-count="85" data-suffix="%">0</strong><span>Less manual work</span></div>
+          <div><strong data-count="24" data-suffix="/7">0</strong><span>AI agents online</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="card-stack">
+          <div class="mock mock-main">
+            <div class="mock-bar"><i></i><i></i><i></i><span>lead-workflow.live</span></div>
+            <div class="flow">
+              <div class="node n1">📥 New Lead</div>
+              <div class="line"></div>
+              <div class="node n2">🧠 AI Scoring</div>
+              <div class="line"></div>
+              <div class="node n3">✅ Score 92 → Sales</div>
+            </div>
+            <div class="typing" id="typing"></div>
+          </div>
+          <div class="float-card fc1"><b>+312%</b><small>faster lead response</small></div>
+          <div class="float-card fc2"><b>⚡ 2 sec</b><small>reply time</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <section class="marquee">
+    <div class="marquee-track">
+      <span>n8n</span><span>OpenAI</span><span>Claude</span><span>Zapier</span><span>Make</span><span>Slack</span><span>HubSpot</span><span>Python</span><span>React</span><span>Shopify</span><span>WhatsApp API</span><span>Google Workspace</span>
+      <span>n8n</span><span>OpenAI</span><span>Claude</span><span>Zapier</span><span>Make</span><span>Slack</span><span>HubSpot</span><span>Python</span><span>React</span><span>Shopify</span><span>WhatsApp API</span><span>Google Workspace</span>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">What we do</span>
+        <h2>Four ways we make your business <span class="grad">faster &amp; smarter</span></h2>
+        <p>From the first workflow to a full AI-powered platform — everything is built around saving you time and bringing in more revenue.</p>
+      </div>
+
+      <div class="grid-4">
+        <article class="card service reveal tilt">
+          <div class="icon">⚙️</div>
+          <h3>Business Automation</h3>
+          <p>Connect your tools and remove repetitive work — lead handling, invoicing, reporting, onboarding, follow-ups and more.</p>
+          <ul><li>CRM &amp; email workflows</li><li>Slack / WhatsApp alerts</li><li>Data sync across apps</li></ul>
+        </article>
+        <article class="card service reveal tilt">
+          <div class="icon">🤖</div>
+          <h3>Custom AI Agents</h3>
+          <p>AI assistants trained on your business that answer customers, qualify leads, book meetings and support your team.</p>
+          <ul><li>Customer support agents</li><li>Sales &amp; lead agents</li><li>Internal knowledge bots</li></ul>
+        </article>
+        <article class="card service reveal tilt">
+          <div class="icon">🌐</div>
+          <h3>Websites &amp; Apps</h3>
+          <p>Fast, beautiful, conversion-focused websites and web/mobile apps built to turn visitors into paying customers.</p>
+          <ul><li>Business &amp; landing pages</li><li>Web apps &amp; dashboards</li><li>E-commerce stores</li></ul>
+        </article>
+        <article class="card service reveal tilt">
+          <div class="icon">🔄</div>
+          <h3>Website Rebuild</h3>
+          <p>Old, slow or outdated site? We redesign and rebuild it with modern design, better SEO and AI features built in.</p>
+          <ul><li>Modern redesign</li><li>Speed &amp; SEO upgrade</li><li>AI chat &amp; lead capture</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section alt">
+    <div class="container why-grid">
+      <div class="reveal">
+        <span class="eyebrow">Why choose us</span>
+        <h2>Real results, not <span class="grad">buzzwords.</span></h2>
+        <p class="muted">We don't sell hype. We find the work that is costing you the most time, automate it, and measure the result.</p>
+        <a href="#contact" class="btn btn-primary">Talk to an Expert</a>
+      </div>
+      <div class="why-list">
+        <div class="why reveal"><span>01</span><div><h4>Business-first thinking</h4><p>We start with your goals and numbers, then choose the right tech — not the other way round.</p></div></div>
+        <div class="why reveal"><span>02</span><div><h4>Fast delivery</h4><p>Most automations go live within days, and websites within weeks, with clear milestones.</p></div></div>
+        <div class="why reveal"><span>03</span><div><h4>Human-in-the-loop safety</h4><p>Important decisions get approved by your team — AI assists, you stay in control.</p></div></div>
+        <div class="why reveal"><span>04</span><div><h4>Support after launch</h4><p>Monitoring, error handling and improvements so everything keeps running smoothly.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">How we work</span>
+        <h2>A simple process from <span class="grad">idea to live</span></h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><div class="num">1</div><h4>Free Audit</h4><p>We review your workflows and find the biggest time and money leaks.</p></div>
+        <div class="step reveal"><div class="num">2</div><h4>Strategy &amp; Plan</h4><p>You get a clear roadmap, timeline and fixed pricing. No surprises.</p></div>
+        <div class="step reveal"><div class="num">3</div><h4>Build &amp; Test</h4><p>We build, connect your tools and test everything with your real data.</p></div>
+        <div class="step reveal"><div class="num">4</div><h4>Launch &amp; Improve</h4><p>Go live with training, monitoring and ongoing optimisation.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDY -->
+  <section class="section alt" id="work">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Featured case study</span>
+        <h2>AI Lead Qualification &amp; <span class="grad">Smart Routing</span></h2>
+        <p>An automation that captures every inbound lead, enriches it, scores it with AI and sends only the best ones to your sales team.</p>
+      </div>
+
+      <div class="case reveal">
+        <div class="case-flow">
+          <div class="cf">📨<b>Webhook</b><small>Lead arrives from form / ad</small></div>
+          <div class="arrow">→</div>
+          <div class="cf">🔍<b>Enrichment</b><small>Company &amp; contact data added</small></div>
+          <div class="arrow">→</div>
+          <div class="cf">🧠<b>LLM Scoring</b><small>Lead scored 0–100</small></div>
+          <div class="arrow">→</div>
+          <div class="cf">🔀<b>Routing</b><small>Score ≥ 70 → sales, else nurture</small></div>
+          <div class="arrow">→</div>
+          <div class="cf">💬<b>Slack + CRM</b><small>Human approval &amp; record created</small></div>
+        </div>
+        <div class="case-stats">
+          <div><strong>2 sec</strong><span>average response time</span></div>
+          <div><strong>0</strong><span>leads lost or forgotten</span></div>
+          <div><strong>100%</strong><span>human approval on hot leads</span></div>
+        </div>
+        <p class="case-note">Includes error handling, retries and a nurture branch for lower-scoring leads.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Packages</span>
+        <h2>Flexible plans for <span class="grad">every stage</span></h2>
+        <p>Every project is custom-quoted — these are starting points. Book a call for exact pricing.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card price reveal">
+          <h3>Starter</h3><p class="muted">Automate your first process</p>
+          <div class="amt">Custom<small> quote</small></div>
+          <ul><li>1 automation workflow</li><li>Up to 3 app integrations</li><li>Testing &amp; documentation</li><li>14 days support</li></ul>
+          <a href="#contact" class="btn btn-ghost">Get Started</a>
+        </div>
+        <div class="card price featured reveal">
+          <span class="badge">Most Popular</span>
+          <h3>Growth</h3><p class="muted">Website + AI working together</p>
+          <div class="amt">Custom<small> quote</small></div>
+          <ul><li>Website build or rebuild</li><li>AI chatbot / lead agent</li><li>3–5 automation workflows</li><li>CRM &amp; Slack integration</li><li>30 days support</li></ul>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="card price reveal">
+          <h3>Enterprise</h3><p class="muted">Full AI transformation</p>
+          <div class="amt">Custom<small> quote</small></div>
+          <ul><li>Custom web / mobile app</li><li>Multiple AI agents</li><li>Advanced integrations</li><li>Dedicated support &amp; monitoring</li></ul>
+          <a href="#contact" class="btn btn-ghost">Talk to Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS (replace with real ones) -->
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Client feedback</span>
+        <h2>What clients <span class="grad">say</span></h2>
+        <p class="muted">Replace these with real testimonials from your clients.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card quote reveal"><p>“Replace this with a real client quote about time saved or results achieved.”</p><div class="who"><span class="av">C1</span><div><b>Client Name</b><small>Role, Company</small></div></div></div>
+        <div class="card quote reveal"><p>“Replace this with a real client quote about the website or AI agent you built.”</p><div class="who"><span class="av">C2</span><div><b>Client Name</b><small>Role, Company</small></div></div></div>
+        <div class="card quote reveal"><p>“Replace this with a real client quote about working with your team.”</p><div class="who"><span class="av">C3</span><div><b>Client Name</b><small>Role, Company</small></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container narrow">
+      <div class="section-head reveal">
+        <span class="eyebrow">FAQ</span>
+        <h2>Questions? <span class="grad">Answered.</span></h2>
+      </div>
+      <div class="faq">
+        <div class="faq-item reveal"><button class="faq-q">How long does an automation project take? <i>+</i></button><div class="faq-a"><p>Simple workflows can go live in a few days. Larger systems with multiple integrations typically take 2–4 weeks.</p></div></div>
+        <div class="faq-item reveal"><button class="faq-q">Do I need technical knowledge? <i>+</i></button><div class="faq-a"><p>No. We handle everything and give you simple documentation and training so your team can use it confidently.</p></div></div>
+        <div class="faq-item reveal"><button class="faq-q">Can you rebuild my existing website? <i>+</i></button><div class="faq-a"><p>Yes. We redesign it with a modern look, faster performance, better SEO and optional AI features like chat and lead capture.</p></div></div>
+        <div class="faq-item reveal"><button class="faq-q">Is my business data safe? <i>+</i></button><div class="faq-a"><p>We follow best practices: secure credentials, limited access and human approval steps for important actions.</p></div></div>
+        <div class="faq-item reveal"><button class="faq-q">Do you offer support after launch? <i>+</i></button><div class="faq-a"><p>Yes. Every package includes support, and we offer monthly plans for monitoring and improvements.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div class="reveal">
+        <span class="eyebrow">Let's talk</span>
+        <h2>Ready to automate <span class="grad">your business?</span></h2>
+        <p class="muted">Tell us what you want to improve. We'll reply within 24 hours with ideas and a free automation audit.</p>
+        <ul class="contact-info">
+          <li>📧 hello@youragency.com</li>
+          <li>💬 WhatsApp: +91 00000 00000</li>
+          <li>🕒 Mon–Sat, 10 AM – 7 PM IST</li>
+        </ul>
+      </div>
+      <form class="card form reveal" id="leadForm" novalidate>
+        <div class="row">
+          <label>Name<input type="text" name="name" placeholder="Your name" required /></label>
+          <label>Email<input type="email" name="email" placeholder="you@company.com" required /></label>
+        </div>
+        <div class="row">
+          <label>Company<input type="text" name="company" placeholder="Company name" /></label>
+          <label>Service needed
+            <select name="service" required>
+              <option value="">Select a service</option>
+              <option>Business Automation</option>
+              <option>Custom AI Agent</option>
+              <option>Website / App Development</option>
+              <option>Website Rebuild</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+        </div>
+        <label>Tell us about your project<textarea name="message" rows="4" placeholder="What would you like to automate or build?" required></textarea></label>
+        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <button type="submit" class="btn btn-primary btn-lg full" id="submitBtn">Send Message →</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container foot-inner">
+      <a href="#home" class="logo"><span class="logo-mark">C</span><span class="logo-text">Crontera<small class="logo-tag">AI solutions</small></span></a>
+      <p>© <span id="year"></span> Crontera: AI solutions. All rights reserved.</p>
+      <div class="foot-links"><a href="#services">Services</a><a href="#pricing">Packages</a><a href="#contact">Contact</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
